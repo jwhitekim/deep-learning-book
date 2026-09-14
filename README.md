@@ -19,6 +19,10 @@
 
 이미지는 기존 원서 그림을 복제하지 않고 개념을 새로 구성한 다이어그램입니다. 이미지가 없을 때도 레이아웃이 무너지지 않도록 `figure`에 배경과 캡션을 두었습니다. 수식은 MathJax용 LaTeX로 작성합니다.
 
+## 용어 표기
+
+딥러닝에서 자주 쓰이는 표현은 실제 강의·논문·코드에서 쓰는 영어를 우선합니다. 자세한 기준은 [`TERMINOLOGY.md`](TERMINOLOGY.md)에 정리했습니다.
+
 ## 새 Chapter 추가
 
 `chapters/chapter-XX.html`을 만들고 공통 CSS/JS 경로를 맞춘 뒤, `index.html`의 chapter card와 각 페이지의 sidebar·하단 navigation을 연결합니다.
